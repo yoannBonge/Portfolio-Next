@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.halo {
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgb(198, 202, 252) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: translate(-50%, -50%);
+  transition:
+    opacity 0.8s,
+    transform 0.8s;
+  z-index: 0;
+  mix-blend-mode: overlay;
+}
+@media (max-width: 1024px) {
+  .halo {
+    z-index: 100;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(94 234 212/ 0.8) rgb(45 212 191 / 0.1);
+  }
+}
