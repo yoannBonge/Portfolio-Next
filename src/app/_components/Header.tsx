@@ -28,16 +28,12 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY;
-      console.log("Scroll Position:", scrollPos);
 
       if (scrollPos < 430) {
-        console.log("Setting section: about");
         setActiveSection("about");
       } else if (scrollPos >= 430 && scrollPos < 2900) {
-        console.log("Setting section: projects");
         setActiveSection("projects");
       } else if (scrollPos >= 2900) {
-        console.log("Setting section: skills");
         setActiveSection("skills");
       }
     };
