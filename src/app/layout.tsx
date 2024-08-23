@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="scroll-smooth">
       <body
-        className={`${inter.className} overflow-y-auto overflow-x-hidden bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
+        className={`${inter.className} overflow-y-auto overflow-x-hidden bg-gray-800 leading-relaxed text-gray-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >
         {children}
         {/* <div className="fixed bottom-4 left-4 z-50 text-[3rem] text-green-500">

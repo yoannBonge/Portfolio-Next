@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <MouseHalo />
-      <div className="p-12 lg:flex lg:justify-between lg:gap-4 lg:p-0">
+      <div className="px-6 md:p-12 lg:flex lg:justify-between lg:gap-2 lg:p-0">
         <Header />
         <Content />
       </div>

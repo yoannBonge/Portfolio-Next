@@ -11,7 +11,7 @@ export default function Header() {
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       const { clientX } = e;
-      if (clientX < 600) {
+      if (clientX < 500) {
         setIsMyArmRising(true);
       } else {
         setIsMyArmRising(false);
@@ -68,6 +68,7 @@ export default function Header() {
           width={200}
           height={200}
           priority={true}
+          quality={100}
           className="hidden lg:block"
         />
         <Image

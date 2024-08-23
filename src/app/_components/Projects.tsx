@@ -8,8 +8,8 @@ export default function Projects() {
       {projects.map((project) => (
         <li key={project.title} className="mb-12">
           <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:min-w-[440px] lg:grid-cols-12 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-            <div className="absolute -inset-x-2 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-700/30 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-            <div className="z-10 sm:order-2 sm:col-span-2 lg:col-span-6">
+            <div className="absolute -inset-x-2 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-gray-950/30 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+            <div className="-z-10 sm:order-2 sm:col-span-2 lg:z-0 lg:col-span-6">
               <h3>
                 <a
                   className="group/link inline-flex items-baseline text-base font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -64,7 +64,7 @@ export default function Projects() {
               </ul>
             </div>
             <p
-              className="custom-scrollbar z-20 order-2 self-center text-wrap sm:w-[65vw] lg:h-64 lg:w-64 lg:self-end lg:overflow-y-auto lg:pr-9"
+              className="custom-scrollbar -z-10 order-2 self-center text-wrap sm:w-[65vw] lg:z-20 lg:h-64 lg:w-64 lg:self-end lg:overflow-y-auto lg:pr-9"
               style={
                 {
                   // scrollbarWidth: "none" /* For Firefox */,
