@@ -38,11 +38,18 @@ export const metadata = {
     icon: "/icons/favicon-32x32.png",
     shortcut: "/icons/favicon.ico",
     apple: "/icons/apple-touch-icon.png",
-    other: {
-      rel: "icon",
-      sizes: "144x144",
-      url: "/icons/android-chrome-144x144.png",
-    },
+    other: [
+      {
+        rel: "icon",
+        sizes: "192x192",
+        url: "/icons/android-chrome-192x192.png",
+      },
+      {
+        rel: "icon",
+        sizes: "512x512",
+        url: "/icons/android-chrome-512x512.png",
+      },
+    ],
   },
   manifest: "/manifest.json",
 };
