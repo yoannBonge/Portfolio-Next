@@ -1,12 +1,49 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
+  metadataBase: new URL("https://yoann-bonge.vercel.app/"),
   title: "Yoann Bonge • Développeur web",
-  description: "Mon portfolio de développeur web",
+  description: "Portfolio de Yoann Bonge, développeur web front-end junior.",
+  openGraph: {
+    type: "website",
+    url: "https://yoann-bonge.vercel.app/",
+    title: "Yoann Bonge • Développeur web",
+    description: "Portfolio de Yoann Bonge, développeur web front-end junior.",
+    images: [
+      {
+        url: "/meta-image.jpg",
+        width: 1239,
+        height: 879,
+        alt: "Aperçu du portfolio de Yoann Bonge",
+      },
+    ],
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    url: "https://yoann-bonge.vercel.app/",
+    title: "Yoann Bonge • Développeur web",
+    description: "Portfolio de Yoann Bonge, développeur web front-end junior.",
+    images: [
+      {
+        url: "/meta-image.jpg",
+        alt: "Aperçu du portfolio de Yoann Bonge",
+      },
+    ],
+  },
+  icons: {
+    icon: "/icons/favicon-32x32.png",
+    shortcut: "/icons/favicon.ico",
+    apple: "/icons/apple-touch-icon.png",
+    other: {
+      rel: "icon",
+      sizes: "144x144",
+      url: "/icons/android-chrome-144x144.png",
+    },
+  },
 };
 
 export default function RootLayout({
