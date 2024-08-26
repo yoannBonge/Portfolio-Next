@@ -26,5 +26,10 @@ https://yoann-bonge.vercel.app/
 I am a french junior web developer.
 
 
-![Logo](https://github.com/yoannBonge/Portfolio-Next/blob/main/public/icons/android-chrome-512x512.png)
+![Logo](https://github.com/yoannBonge/Portfolio-Next/blob/main/public/icons/android-chrome-192x192.png)
 
+
+## Acknowledgements
+
+ - [Brittany Chiang (for the design of my portfolio, which is largely inspired by hers : https://brittanychiang.com/)](https://github.com/bchiang7)
+ - [Katherine Oelsner (for the README editor)](https://github.com/octokatherine)
