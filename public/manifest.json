@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio de Yoann Bonge",
+  "short_name": "Yoann Bonge",
+  "icons": [
+    {
+      "src": "/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#5eead4",
+  "background_color": "#1f2937",
+  "display": "standalone"
+}

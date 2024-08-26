@@ -31,9 +31,9 @@ export default function Header() {
 
       if (scrollPos < 430) {
         setActiveSection("about");
-      } else if (scrollPos >= 430 && scrollPos < 2900) {
+      } else if (scrollPos >= 430 && scrollPos < 2700) {
         setActiveSection("projects");
-      } else if (scrollPos >= 2900) {
+      } else if (scrollPos >= 2700) {
         setActiveSection("skills");
       }
     };

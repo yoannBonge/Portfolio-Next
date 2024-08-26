@@ -44,6 +44,7 @@ export const metadata = {
       url: "/icons/android-chrome-144x144.png",
     },
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
