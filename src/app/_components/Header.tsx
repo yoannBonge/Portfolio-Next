@@ -107,7 +107,7 @@ export default function Header() {
           <li>
             <a
               className="group block"
-              href="https://www.linkedin.com/in/yoann-bonge-87bb7a2a5/"
+              href="https://www.linkedin.com/in/yoann-bonge/"
               target="_blank"
               rel="noreferrer noopener"
               aria-label="LinkedIn (s'ouvre dans un nouvel onglet)"
